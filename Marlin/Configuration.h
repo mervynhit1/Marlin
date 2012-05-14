@@ -217,10 +217,10 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 #define Z_HOME_DIR -1
 
 #define min_software_endstops false //If true, axis won't move to coordinates less than zero.
-#define max_software_endstops false  //If true, axis won't move to coordinates greater than the defined lengths below.
+#define max_software_endstops true  //If true, axis won't move to coordinates greater than the defined lengths below.
 #define X_MAX_LENGTH 210
-#define Y_MAX_LENGTH 210
-#define Z_MAX_LENGTH 210
+#define Y_MAX_LENGTH 195
+#define Z_MAX_LENGTH 135
 
 //// MOVEMENT SETTINGS
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E*
@@ -243,7 +243,7 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.7402,78.7402,200*8/3,760*1.1}                    // default steps per unit for ultimaker 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 3333.92, 67} //sells mendel with v9 extruder
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.3232, 80.8900, 2284.7651, 757.2218, 737.5537} // X,Y,Z,E0... SAE Prusa w/ Wade extruder
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {79.8143, 80.2321, 2250.0000, 757.2218, 737.5537} // X,Y,Z,E0... SAE Prusa w/ Wade extruder
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 7, 50, 50} // X,Y,Z,E0...(mm/sec)    
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,9000,9000} // X,Y,Z,E0... maximum acceleration (mm/s^2). E default values are good for skeinforge 40+, for older versions raise them a lot.
 #define DEFAULT_RETRACT_ACCELERATION  {180000,180000} // E0... (per extruder) acceleration in mm/s^2 for retracts 
