@@ -236,8 +236,8 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 
 #define MAX_STEP_FREQUENCY 40000 // Max step frequency for Ultimaker (5000 pps / half step)
 
-#define EXTRUDER_OFFSET_X {0.0, 21.68} // (in mm) per extruder, offset of the extruder on the X axis
-#define EXTRUDER_OFFSET_Y {0.0, 0.64} // (in mm) per extruder, offset of the extruder on the Y axis
+#define EXTRUDER_OFFSET_X {0.0, 20.78} // (in mm) per extruder, offset of the extruder on the X axis
+#define EXTRUDER_OFFSET_Y {0.0, -0.46} // (in mm) per extruder, offset of the extruder on the Y axis
 
 // default settings 
 
