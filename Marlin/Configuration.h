@@ -236,14 +236,14 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 
 #define MAX_STEP_FREQUENCY 40000 // Max step frequency for Ultimaker (5000 pps / half step)
 
-#define EXTRUDER_OFFSET_X {0.0, 21.68} // (in mm) per extruder, offset of the extruder on the X axis
-#define EXTRUDER_OFFSET_Y {0.0, 0.64} // (in mm) per extruder, offset of the extruder on the Y axis
+#define EXTRUDER_OFFSET_X {0.0, 22.43} // (in mm) per extruder, offset of the extruder on the X axis
+#define EXTRUDER_OFFSET_Y {0.0, 0.90} // (in mm) per extruder, offset of the extruder on the Y axis
 
 // default settings 
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.7402,78.7402,200*8/3,760*1.1}                    // default steps per unit for ultimaker 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 3333.92, 67} //sells mendel with v9 extruder
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {79.8143, 80.2321, 2250.0000, 757.2218, 737.5537} // X,Y,Z,E0... SAE Prusa w/ Wade extruder
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.1587, 80.3921, 2274.0308, 757.2218, 737.5537} // X,Y,Z,E0... SAE Prusa w/ Wade extruder
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 7, 50, 50} // X,Y,Z,E0...(mm/sec)    
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,9000,9000} // X,Y,Z,E0... maximum acceleration (mm/s^2). E default values are good for skeinforge 40+, for older versions raise them a lot.
 #define DEFAULT_RETRACT_ACCELERATION  {180000,180000} // E0... (per extruder) acceleration in mm/s^2 for retracts 
